@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Покемон, бульбазавр, пикачу, сквиртл, чармандер, регистрация">
+    <meta name="description" content="Регистрация на Pokemon">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../style/generalStyle.css">
+    <link rel="stylesheet" href="../style/registStyle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../homework1/html/first.html">Pokemon</a></li>
+                <li><a href="../../homework1/html/second.html">Description of Pokemon</a></li>
+                <li><a href="../../homework1/html/third.html">Info about Pokemon</a></li>
+                <li><a href="authorization.html">Authorization</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Регистрация</h1>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <p>
+                        <label>Логин:
+                            <input type="text" required minlength="5" maxlength="12">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Почта:
+                            <input type="email" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Пароль:
+                            <input type="password" required placeholder="Введите пароль" maxlength="20" minlength="10">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Еще раз:
+                                <input type="password" required placeholder="Подтвердите пароль" maxlength="20" minlength="10">
+                            </label>
+                    </p>
+                    <p>
+                        <label>Загрузите свое изобржение
+                            <input type="file" accept="image/*" size="150">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="reset">
+                        <input type="submit">
+                    </p>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>

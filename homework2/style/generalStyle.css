@@ -1,0 +1,33 @@
+body {
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 550px;
+    text-align: center;
+    background: rgba(196, 230, 243, 0.9);
+    border: 2px solid gray;
+    border-radius: 20px 5px;
+}
+
+li {
+    display: inline;
+}
+
+ul a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+ul a:hover {
+    color: green;
+}
