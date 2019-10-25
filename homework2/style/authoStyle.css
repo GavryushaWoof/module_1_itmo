@@ -1,19 +1,8 @@
+@import url("./generalAuth.css");
 body {
     background-image: url(../img/Pokemon24.jpg);
 }
 
 section {
-    margin: 0 auto;
-    text-align: center;
     width: 300px;
-}
-
-form {
-    background: rgba(196, 230, 243, 0.9);
-    border-radius: 20px 5px;
-}
-
-fieldset {
-    border: 3px solid gray;
-    border-radius: 20px 5px;
 }
