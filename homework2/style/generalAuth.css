@@ -4,11 +4,11 @@ section {
 }
 
 form {
-    background: rgba(196, 230, 243, 0.9);
+    background: #c4e6f3e6;
     border-radius: 20px 5px;
 }
 
 fieldset {
-    border: 3px solid gray;
+    border: 3px solid #808080;
     border-radius: 20px 5px;
 }
