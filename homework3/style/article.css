@@ -1,0 +1,10 @@
+.button {
+    -webkit-appearance: button;
+    padding: .2em .75em;
+    text-decoration: none;
+}
+
+.nameAuthor {
+    text-decoration: none;
+    color: #89c041;
+}
