@@ -1,0 +1,26 @@
+@import url("generalAuth.css");
+body {
+    background-image: url(../../homework1/img/forest.jpg);
+}
+
+img {
+    float: right;
+}
+
+div {
+    text-align: left;
+    width: 383px;
+    margin-bottom: 10px;
+}
+
+.button {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+section {
+    width: 550px;
+}
